@@ -60,7 +60,7 @@ SMODS.Joker {
     key = "rottenBanan",
 
     loc_txt = {
-        name = "Rotten Banan"
+        name = "Rotten Banan",
         text = {
             "Destroys each played {X:gold,C:white}Banana{} in the first hand of each blind",
             "+ {X:mult,C:white}X0.5{} Mult for each destroyed {X:gold,C:white}Banana{}"
