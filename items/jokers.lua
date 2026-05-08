@@ -1,0 +1,57 @@
+SMODS.Atlas {
+    key = "banana",
+    path = "banana.png",
+    px = 71,
+    py = 95
+}
+
+
+SMODS.Joker{
+    key = "banan",
+
+    loc_txt = {
+        name = "banan",
+        text = {
+            "It's just a banan",
+            "{s:0.7}TBA{}"
+        }
+    },
+
+    rarity = 1,
+    atlas = "banana",
+    pos = {x = 0, y = 0},
+    cost = 3,
+    discovered = true,
+
+    calculate = function (self,card,context)
+        if context.end_of_round and context.game_over == false then
+           attention_text({
+            text = "banan",
+            scale = 2,
+            hold = 1.4,
+            major = card,
+            offset = { x = 0, y = -0.2 }
+        }) 
+        end
+    end
+}
+
+SMODS.Joker {
+    key = "bananaFarm",
+
+    loc_txt = {
+        name = "Bananafarm",
+        text = {"Turns 1 Random Card Held in Hand into a {X:gold}{C:white}Banana{} every played hand"}
+    },
+
+    rarity = 3,
+    atlas = "banana",
+    pos = {x = 0, y = 0},
+    cost = 8,
+    discovered = true,
+
+    -- calculate = function (self, card, context)
+    --     --TBA
+    --     return
+    -- end
+}

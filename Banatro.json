@@ -1,0 +1,13 @@
+{
+	"id": "banatro", 
+	"name": "Banatro", 
+	"author": ["Mythy"], 
+	"description": "BANANA!.", 
+	"prefix": "Banatro", 
+	"main_file": "Banatro.lua", 
+	"badge_colour": "FFEA00",
+	"dependencies": [
+        "Steamodded (>=1.0.0~ALPHA-1225a)"
+    ],
+	"version": "1.0.0"
+}
