@@ -41,7 +41,7 @@ SMODS.Joker {
 
     loc_txt = {
         name = "Bananafarm",
-        text = {"Turns 1 Random Card Held in Hand into a {X:gold}{C:white}Banana{} every played hand"}
+        text = {"Turns 1 Random Card Held in Hand into a {X:gold,C:white}Banana{} every played hand"}
     },
 
     rarity = 3,
