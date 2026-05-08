@@ -63,7 +63,8 @@ SMODS.Joker {
         name = "Rotten Banan"
         text = {
             "Destroys each played {X:gold,C:white}Banana{} in the first hand of each blind",
-            "+ {X:mult,C:white}X0.5{} Mult for each destroyed {X:gold,C:white}Banana{}"
+            "+ {X:mult,C:white}X0.5{} Mult for each destroyed {X:gold,C:white}Banana{}",
+            "Currently: {X:mult,C:white}X1{}" -- later add variable
         }
     },
 
