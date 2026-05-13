@@ -1,1 +1,2 @@
 assert(SMODS.load_file("items/jokers.lua"))()
+assert(SMODS.load_file("items/ranks.lua"))()

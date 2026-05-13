@@ -1,10 +1,9 @@
 SMODS.Atlas {
-    key = "banana",
+    key = "jokers",
     path = "banana.png",
     px = 71,
     py = 95
 }
-
 
 SMODS.Joker{
     key = "banan",
@@ -18,7 +17,7 @@ SMODS.Joker{
     },
 
     rarity = 1,
-    atlas = "banana",
+    atlas = "jokers",
     pos = {x = 0, y = 0},
     cost = 3,
     discovered = true,
@@ -41,11 +40,11 @@ SMODS.Joker {
 
     loc_txt = {
         name = "Bananafarm",
-        text = {"Turns 1 Random Card Held in Hand into a {X:gold}{C:white}Banana{} every played hand"}
+        text = {"Turns 1 Random Card Held in Hand into a {X:gold,C:white}Banana{} every played hand"}
     },
 
     rarity = 3,
-    atlas = "banana",
+    atlas = "jokers",
     pos = {x = 0, y = 0},
     cost = 8,
     discovered = true,
