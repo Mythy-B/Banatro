@@ -1,10 +1,9 @@
 SMODS.Atlas {
-    key = "banana",
+    key = "jokers",
     path = "banana.png",
     px = 71,
     py = 95
 }
-
 
 SMODS.Joker{
     key = "banan",
@@ -18,7 +17,7 @@ SMODS.Joker{
     },
 
     rarity = 1,
-    atlas = "banana",
+    atlas = "jokers",
     pos = {x = 0, y = 0},
     cost = 3,
     discovered = true,
@@ -45,7 +44,7 @@ SMODS.Joker {
     },
 
     rarity = 3,
-    atlas = "banana",
+    atlas = "jokers",
     pos = {x = 0, y = 0},
     cost = 8,
     discovered = true,
